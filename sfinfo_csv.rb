@@ -73,6 +73,6 @@ agent.cookie_jar.add(URL + "3000", cookie)
 
   puts "\"#{id}\",\"#{name}\",\"#{os}\",\"#{status}\",\"#{account}\",\"#{dept}\",\"#{division}\",\"#{owner}\",\"#{storage}\",\"#{cpu}\",\"#{memory}\""
   rescue Exception => e
-    puts e.message
+#    puts e.message
   end
 end
