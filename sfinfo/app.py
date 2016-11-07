@@ -1,6 +1,6 @@
 import csv
 import json
-import StringIO
+from StringIO import StringIO
 
 import boto3
 from botocore.exceptions import ClientError
@@ -23,7 +23,7 @@ def load_database():
         response = S3.get_object(Bucket=BUCKET, Key='sfinfo/sfinfo.csv')
         csvcontents = response['Body'].read()
 
-        csvfile = StringiO(cvscontents)
+        csvfile = StringIO(csvcontents)
         fieldnames = ("id","name","os","status","account","dept","division","owner","storage")
         reader = csv.DictReader(csvfile, fieldnames)
 
@@ -39,7 +39,7 @@ def index():
 
 
 @app.route('/list')
-def index():
+def listvms():
     global database
 
     load_database()
@@ -51,7 +51,7 @@ def get_vm_details(machine_id):
     global database
 
     load_database()
-    return database[id]
+    return database[machine_id]
 
 
 @app.route('/readFile/{key}')
