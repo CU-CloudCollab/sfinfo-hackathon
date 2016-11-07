@@ -8,6 +8,17 @@ def index():
     return {'hello': 'world'}
 
 
+@app.route('/list')
+def index():
+    return {'idlist':[ '3001', '3002', '3003'] }
+
+
+@app.route('/detail/{id}')
+def get_vm_details(machine_id):
+    return {'id': machine_id, 'property': 123 }
+
+
+
 # The view function above will return {"hello": "world"}
 # whenver you make an HTTP GET request to '/'.
 #
