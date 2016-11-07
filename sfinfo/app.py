@@ -41,30 +41,24 @@ def listvms():
     return response
 
 
-@app.route('/detail/{id}')
-def get_vm_details(machine_id):
-
-    try:
-        response = table.get_item(
-            Key={
-                'id': machine_id,
-                }
-            )
-    except ClientError as e:
-        response = {'error': str(e)}
-
-    return response
-
-@app.route('/detail/{id}', methods=['PUT'])
+@app.route('/detail/{id}', methods=['GET', 'PUT'])
 def put_vm_details(machine_id):
 
     try:
-        response = table.put_item(
-            Item={
-                'id': machine_id,
-                'owner': "Joel",
-                }
-            )
+        request = aap.current_request
+	if request.method == 'GET':
+            response = table.get_item(
+                Key={
+                    'id': machine_id,
+                    }
+                )
+        elif request.method == 'PUT':
+            response = table.put_item(
+                Item={
+                   'id': machine_id,
+                   'owner': "Joel",
+                   }
+                )
     except ClientError as e:
         response = {'error': str(e)}
 
