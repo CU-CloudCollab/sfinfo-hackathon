@@ -5,7 +5,7 @@ require 'mechanize'
 require 'uri'
 
 URL = "https://sfinfo.cit.cornell.edu/sfinfo_app/htdocs/vserver.php?vs_id="
-#puts "\"id\",\"name\",\"os\",\"status\",\"account\",\"dept\",\"division\",\"owner\",\"storage\",\"cpu\",\"memory\""
+puts "\"id\",\"name\",\"os\",\"status\",\"account\",\"dept\",\"division\",\"owner\",\"storage\",\"cpu\",\"memory\""
 
 agent = Mechanize.new
 cookie = Mechanize::Cookie.new("cuweblogin2", "#{ARGV[0]}")
@@ -47,14 +47,7 @@ agent.cookie_jar.add(URL + "3000", cookie)
   status = page.parser.xpath("/html/body/div[3]/div/div/table[1]/tr[2]/td[5]")[0].children[0].text.strip
 
   cpu = page.parser.xpath("/html/body/div[3]/div/div/table[4]/tr[8]/td[2]")[0].children.text
-  cpu_start = cpu.index(",")
-  cpu_end = cpu.index("logical")
-  cpu = cpu[cpu_start+2..cpu_end-2].strip
-
   memory = page.parser.xpath("/html/body/div[3]/div/div/table[4]/tr[13]/td[2]")[0].children.text
-  memory_start = memory.index('(')
-  memory_end = memory.index(')')
-  memory = memory[memory_start+1..memory_end-1].strip
 
   i = 2
   quit = false
@@ -78,20 +71,7 @@ agent.cookie_jar.add(URL + "3000", cookie)
   storage = storage.to_i.to_s
   owner = "Unknown" if owner.eql?("[  ]")
 
-  #puts "{id:\"#{id}\",\"#{name}\",\"#{os}\",\"#{status}\",\"#{account}\",\"#{dept}\",\"#{division}\",\"#{owner}\",\"#{storage}\",\"#{cpu}\",\"#{memory}\""
-  puts "{"
-  puts "id:\"#{id}\","
-  puts "name:\"#{name}\","
-  puts "os:\"#{os}\","
-  puts "status:\"#{status}\","
-  puts "account:\"#{account}\","
-  puts "dept:\"#{dept}\","
-  puts "division:\"#{division}\","
-  puts "owner:\"#{owner}\","
-  puts "storage:\"#{storage}\","
-  puts "cpu:\"#{cpu}\","
-  puts "memory:\"#{memory}\","
-  puts "}"
+  puts "\"#{id}\",\"#{name}\",\"#{os}\",\"#{status}\",\"#{account}\",\"#{dept}\",\"#{division}\",\"#{owner}\",\"#{storage}\",\"#{cpu}\",\"#{memory}\""
   rescue Exception => e
   end
 end
