@@ -1,6 +1,15 @@
+import json
+import boto3
+from botocore.exceptions import ClientError
 from chalice import Chalice
+from chalice import NotFoundError
 
 app = Chalice(app_name='sfinfo')
+
+app.debug = True
+
+S3 = boto3.client('s3', region_name='us-east-1')
+BUCKET = 'cu-hackathon-data'
 
 
 @app.route('/')
@@ -17,6 +26,15 @@ def index():
 def get_vm_details(machine_id):
     return {'id': machine_id, 'property': 123 }
 
+
+@app.route('/readFile/{key}')
+def s3objects(key):
+    request = app.current_request
+    try:
+        response = S3.get_object(Bucket=BUCKET, Key='sfinfo/sfinfo.csv')
+        return response['Body'].read()
+    except ClientError as e:
+        raise NotFoundError(key)
 
 
 # The view function above will return {"hello": "world"}

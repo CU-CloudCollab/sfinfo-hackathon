@@ -3,6 +3,16 @@
   "Statement": [
     {
       "Action": [
+        "s3:GetObject"
+      ], 
+      "Resource": [
+        "*"
+      ], 
+      "Effect": "Allow", 
+      "Sid": "05cdc15abbc94eac892eed61975613d9"
+    }, 
+    {
+      "Action": [
         "logs:CreateLogGroup", 
         "logs:CreateLogStream", 
         "logs:PutLogEvents"
