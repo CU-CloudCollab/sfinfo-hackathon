@@ -1,4 +1,7 @@
+import csv
 import json
+import StringIO
+
 import boto3
 from botocore.exceptions import ClientError
 from chalice import Chalice
@@ -11,6 +14,24 @@ app.debug = True
 S3 = boto3.client('s3', region_name='us-east-1')
 BUCKET = 'cu-hackathon-data'
 
+database = {}
+
+def load_database():
+    global database
+
+    try:
+        response = S3.get_object(Bucket=BUCKET, Key='sfinfo/sfinfo.csv')
+        csvcontents = response['Body'].read()
+
+        csvfile = StringiO(cvscontents)
+        fieldnames = ("id","name","os","status","account","dept","division","owner","storage")
+        reader = csv.DictReader(csvfile, fieldnames)
+
+        for row in reader:
+            database[row['id']] = row
+
+    except ClientError as e:
+        raise NotFoundError(key)
 
 @app.route('/')
 def index():
@@ -19,12 +40,18 @@ def index():
 
 @app.route('/list')
 def index():
-    return {'idlist':[ '3001', '3002', '3003'] }
+    global database
+
+    load_database()
+    return {'idlist':database.keys()}
 
 
 @app.route('/detail/{id}')
 def get_vm_details(machine_id):
-    return {'id': machine_id, 'property': 123 }
+    global database
+
+    load_database()
+    return database[id]
 
 
 @app.route('/readFile/{key}')
