@@ -26,7 +26,19 @@ def index():
 
 @app.route('/list')
 def listvms():
-    return {'idlist': []}
+
+    try:
+	idlist = []
+
+        response = table.query()
+        for i in response[u'Items']:
+            idlist.append(i['id'])
+
+	response = {'idlist': idlist}
+    except ClientError as e:
+        response = {'error': str(e)}
+
+    return response
 
 
 @app.route('/detail/{id}')
