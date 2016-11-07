@@ -91,7 +91,6 @@
 "3089","sf-york25","Windows","Active","R534713","CIT","Network & Communication Services","amp53","279","4 Physical, 4 Logical","8191 (8192)"
 "3090","sf-honey01","Windows","Active","R524715","CIT","Systems & Operations","mjl338","149","2 Physical, 2 Logical","8191 (8192)"
 "3091","sf-fs-tweb-006","Windows","Gone","G413704","FACILITIES OPERATIONS","","tdd29","149","2 Physical, 2 Logical","8191 (8192)"
-undefined method `+' for nil:NilClass
 "3093","sf-fs-web-005","Windows","Active","G413704","FACILITIES OPERATIONS","","tdd29","149","2 Physical, 2 Logical","8191 (8192)"
 "3094","sf-fs-tweb-007","Windows","Gone","G413704","FACILITIES OPERATIONS","","tdd29","149","2 Physical, 2 Logical","8191 (8192)"
 "3095","oxton118.serverfarm.cornell.edu","Linux","Active","G413701","Programming Services","","gm228","406","2 physical, 2 logical","7981 (8192)"
@@ -131,8 +130,6 @@ undefined method `+' for nil:NilClass
 "3129","ad13","Windows","Gone","R704710","CIT","IT Security","se10","119","2 Physical, 2 Logical","8191 ()"
 "3130","adtest13","Windows","Gone","R704710","CIT","IT Security","se10","119","2 Physical, 2 Logical","8191 (4096)"
 "3131","webhost003.serverfarm.cornell.edu","Linux","Gone","R704755","CIT","Information Systems","sml34","57","1 physical, 1 logical","1873 (2048)"
-undefined method `+' for nil:NilClass
-undefined method `+' for nil:NilClass
 "3134","oxton119.serverfarm.cornell.edu","Linux","Gone","G474803","OFFICE OF VICE PROVOST FOR RESEARCH","RAIS - GP ALLOCATION","gm228","204","1 physical, 1 logical","3828 (4096)"
 "3135","sf-sas-db-006","Windows","Gone","G123008","SAS IT Enterprise","","mm129","149","1 Physical, 2 Logical","4095 (4096)"
 "3136","sf-ps-006.serverfarm.cornell.edu","Linux","Gone","R704750","CIT","Information Systems","vm57","107","2 physical, 2 logical","7868 (8192)"
@@ -177,7 +174,6 @@ undefined method `+' for nil:NilClass
 "3175","cambridge05.serverfarm.cornell.edu","Linux","Active","R524717","CIT","Support","pb10","116","2 physical, 2 logical","3923 (4096)"
 "3176","cambridge06.serverfarm.cornell.edu","Linux","Active","R524717","CIT","Support","pb10","136","2 physical, 2 logical","3923 (4096)"
 "3177","bmw087.serverfarm.cornell.edu","Linux","Gone","R534702","CIT","Information Systems","gm228","145","1 physical, 1 logical","3828 (4096)"
-undefined method `children' for nil:NilClass
 "3179","sf-infranode423","Windows","Active","R524870","CIT","Systems & Operations","ljc1","379","2 Physical, 2 Logical","4095 (4096)"
 "3180","sf-infranode424","Windows","Active","R524870","CIT","Systems & Operations","ljc1","89","1 Physical, 1 Logical","2047 (2048)"
 "3181","sf-infranode425","Windows","Active","R524870","CIT","Systems & Operations","ljc1","89","1 Physical, 1 Logical","4095 (4096)"
@@ -187,96 +183,32 @@ undefined method `children' for nil:NilClass
 "3185","sf-e2013mgmt","Windows","Gone","R524717","CIT","Support","pb10","0","Not Provided","Not Provided ()"
 "3186","sf-ecm-np003","Windows","Active","R704750","CIT","Information Systems","vm57","139","2 Physical, 2 Logical","2047 (2048)"
 "3187","sf-ecm-np004","Windows","Active","R704750","CIT","Information Systems","vm57","139","2 Physical, 2 Logical","2047 (2048)"
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
 "3191","broome1-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
-undefined method `children' for nil:NilClass
 "3193","ccc1a-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
 "3194","ccc1b-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
 "3197","clara1a-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
 "3198","clara1b-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-"3213","gs1a-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
 "3214","gs1b-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
 "3217","hol1a-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
 "3218","hol1b-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
 "3219","humph1b-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
 "3220","humph1a-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
 "3221","ilr-buffalo1-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
 "3226","mcfad1a-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
 "3227","mcfad1b-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
-undefined method `children' for nil:NilClass
 "3229","morris1a-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
 "3230","morris1b-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
 "3240","orleans1-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
 "3245","rhodes1a-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
 "3246","rhodes1b-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
 "3247","rockland1-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
 "3255","soho1-300c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
 "3256","soho1a-300c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
 "3267","uris1a-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
 "3268","uris1b-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
 "3273","wyoming1-60c.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","1","Not Provided ()"
 "3274","sf-e2013mgmt","Windows","Active","R524717","CIT","Support","pb10","939","1 Physical, 4 Logical","18431 (18432)"
 "3275","sf-exchmgmt","Windows","Active","R524717","CIT","Support","pb10","174","1 Physical, 1 Logical","12287 (12288)"
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
 "3278","capri4.serverfarm.cornell.edu","Linux","Active","R524870","CIT","Systems & Operations","ljc1","1022","2 physical, 2 logical","3828 (4096)"
 "3279","sf-wintest01","Windows","Gone","R524850","CIT","Systems & Operations","ljc1","69","2 Physical, 2 Logical","4095 (4096)"
 "3280","topaz20.mail.cornell.edu","Linux","Active","R524717","CIT","Support","pb10","534","2 physical, 2 logical","7868 (8192)"
@@ -312,7 +244,6 @@ undefined method `children' for nil:NilClass
 "3310","sf-vm-webdv-004","Windows","Active","4053748","VET COMPUTING SERVICES","","afm2","159","2 Physical, 2 Logical","10239 (10240)"
 "3311","sf-xcapps-002.serverfarm.cornell.edu","Linux","Active","R704750","CIT","Information Systems","vm57","86","2 physical, 2 logical","2883 (3072)"
 "3312","norway09.serverfarm.cornell.edu","ESX","Active","R524850","CIT","Systems & Operations","ljc1","0","Not Provided","Not Provided (262109)"
-undefined method `children' for nil:NilClass
 "3314","sf-sas-db-007","Windows","Active","G123008","SAS IT Enterprise","","mm129","109","2 Physical, 2 Logical","4095 (4096)"
 "3315","oxton124.serverfarm.cornell.edu","Linux","Gone","R534702","CIT","Information Systems","gm228","146","1 physical, 1 logical","3828 (4096)"
 "3316","oxton125.serverfarm.cornell.edu","Linux","Active","R534702","CIT","Information Systems","gm228","160","1 physical, 1 logical","3828 (4096)"
@@ -349,7 +280,6 @@ undefined method `children' for nil:NilClass
 "3347","sf-infranode429","Windows","Gone","R524870","CIT","Systems & Operations","ljc1","69","2 Physical, 2 Logical","4095 (4096)"
 "3348","sf-infranode430.serverfarm.cornell.edu","Linux","Active","R524870","CIT","Systems & Operations","ljc1","57","4 physical, 4 logical","5848 (6144)"
 "3349","sf-infranode431","Windows","Gone","R524870","CIT","Systems & Operations","ljc1","159","2 Physical, 2 Logical","6143 (6144)"
-undefined method `children' for nil:NilClass
 "3351","oxton128.serverfarm.cornell.edu","Linux","Gone","R534702","CIT","Information Systems","gm228","146","1 physical, 1 logical","3947 (4096)"
 "3352","sf-ps-np011.serverfarm.cornell.edu","Linux","Active","R704750","CIT","Information Systems","vm57","86","2 physical, 2 logical","7868 (8192)"
 "3353","sf-infranode432","Windows","Gone","R524870","CIT","Systems & Operations","ljc1","69","2 Physical, 2 Logical","2047 (2048)"
@@ -359,7 +289,6 @@ undefined method `children' for nil:NilClass
 "3357","ladyslipper2.serverfarm.cornell.edu","Linux","Active","R532503","CIT","Systems & Operations","ljc1","106","1 physical, 12 logical","15910 ()"
 "3358","xwebhost001.serverfarm.cornell.edu","Linux","Active","R704750","CIT","Information Systems","sml34","155","1 physical, 1 logical","3828 (4096)"
 "3359","xwebhost002.serverfarm.cornell.edu","Linux","Active","R704750","CIT","Information Systems","sml34","337","1 physical, 1 logical","3828 (4096)"
-undefined method `children' for nil:NilClass
 "3361","sf-lib-web-006.serverfarm.cornell.edu","Linux","Gone","L854711","DIGITAL LIBRARY AND INFORM TECH","","cam2","117","2 physical, 2 logical","1873 (2048)"
 "3362","lib-discovr-04.serverfarm.cornell.edu","Linux","Gone","L854711","DIGITAL LIBRARY AND INFORM TECH","","cam2","106","2 physical, 2 logical","7868 (8192)"
 "3363","lib-solr-007.serverfarm.cornell.edu","Linux","Gone","L854711","DIGITAL LIBRARY AND INFORM TECH","","cam2","337","2 physical, 2 logical","15947 (16384)"
@@ -394,13 +323,11 @@ undefined method `children' for nil:NilClass
 "3392","sf-fs-dbs-008","Windows","Active","G413704","FACILITIES OPERATIONS","","tdd29","179","1 Physical, 1 Logical","6143 (6144)"
 "3393","sf-fs-dbs-009","Windows","Active","G413704","FACILITIES OPERATIONS","","tdd29","179","1 Physical, 1 Logical","6143 (6144)"
 "3394","sf-lib-app-012.serverfarm.cornell.edu","Linux","Active","L853721","DIGITAL LIBRARY AND INFORM TECH","","cam2","196","2 physical, 2 logical","3828 (4096)"
-undefined method `children' for nil:NilClass
 "3396","sf-infranode434","Windows","Gone","R554702","CIT","Office of Administration","amb3","709","1 Physical, 1 Logical","8191 (8192)"
 "3397","sf-lib-app-013.serverfarm.cornell.edu","Linux","Active","L918307","OLIN Library","","cam2","116","2 physical, 2 logical","3828 (4096)"
 "3398","ahab4.ornith.cornell.edu","Linux","Active","1718961","LABORATORY OF ORNITHOLOGY","","crp11","47","1 physical, 1 logical","3828 (4096)"
 "3399","ahab5.ornith.cornell.edu","Linux","Active","1718961","LABORATORY OF ORNITHOLOGY","","crp11","1030","1 physical, 1 logical","3828 (4096)"
 "3400","bmw092.serverfarm.cornell.edu","Linux","Active","R534702","CIT","Information Systems","gm228","126","2 physical, 2 logical","7868 (8192)"
-undefined method `children' for nil:NilClass
 "3402","sf-dfacit-fs-06","Windows","Active","G104700","FINANCIAL SYSTEMS","","amb3","759","1 Physical, 1 Logical","8191 (8192)"
 "3403","lsitools.serverfarm.cornell.edu","Linux","Gone","R524870","CIT","Systems & Operations","ljc1","38","2 physical, 16 logical","7925 ()"
 "3404","webhost006.serverfarm.cornell.edu","Linux","Gone","R704755","CIT","Information Systems","sml34","67","1 physical, 1 logical","1873 (2048)"
@@ -422,9 +349,6 @@ undefined method `children' for nil:NilClass
 "3420","sf-york29","Windows","Active","R534713","CIT","Network & Communication Services","amp53","179","2 Physical, 2 Logical","8191 (8192)"
 "3421","sf-capps-004.serverfarm.cornell.edu","Linux","Active","R704750","CIT","Information Systems","vm57","578","2 physical, 2 logical","7868 (8192)"
 "3422","sf-capps-np002.serverfarm.cornell.edu","Linux","Active","R704750","CIT","Information Systems","vm57","578","2 physical, 2 logical","7868 (8192)"
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
 "3426","tahoe01.serverfarm.cornell.edu","Linux","Active","P753705","FACILITIES OPERATIONS","","mem25","86","2 physical, 2 logical","1873 (2048)"
 "3427","tahoe02.serverfarm.cornell.edu","Linux","Active","P753705","FACILITIES OPERATIONS","","mem25","86","2 physical, 2 logical","3828 (4096)"
 "3428","sf-integr-np002.serverfarm.cornell.edu","Linux","Active","R704750","CIT","Information Systems","vm57","136","2 physical, 2 logical","7868 (8192)"
@@ -442,15 +366,6 @@ undefined method `children' for nil:NilClass
 "3440","bmw096.serverfarm.cornell.edu","Linux","Gone","R534702","CIT","Information Systems","gm228","303","1 physical, 1 logical","3828 (4096)"
 "3441","bmw097.serverfarm.cornell.edu","Linux","Gone","R534702","CIT","Information Systems","gm228","303","2 physical, 2 logical","3828 (4096)"
 "3442","bmw098.serverfarm.cornell.edu","Linux","Gone","R534702","CIT","Information Systems","gm228","406","1 physical, 1 logical","3828 (4096)"
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
 "3452","sf-kualibuild02","Windows","Gone","R704750","CIT","Information Systems","sjc37","119","1 Physical, 1 Logical","2047 (2048)"
 "3453","lib-ld-001.serverfarm.cornell.edu","Linux","Active","L858309","DIGITAL LIBRARY AND INFORM TECH","","cam2","116","2 physical, 2 logical","7868 (8192)"
 "3454","sf-pacs1","Windows","Active","4933383","CORNELL UNIVERSITY HOSPITAL FOR ANIMALS","","slk9","8592","4 Physical, 4 Logical","24575 (24576)"
@@ -496,9 +411,7 @@ undefined method `children' for nil:NilClass
 "3494","sf-infranode049","Windows","Gone","R524870","CIT","Systems & Operations","ljc1","89","2 Physical, 2 Logical","8191 (8192)"
 "3495","alva04.mail.cornell.edu","Linux","Gone","R524717","CIT","Support","pb10","424","2 physical, 2 logical","7868 (8192)"
 "3496","sf-fs-tdbs-003","Windows","Gone","R513845","CIT","","pb10","1615","1 Physical, 4 Logical","32767 (32768)"
-undefined method `children' for nil:NilClass
 "3498","brooklyn1-60c.net.cornell.edu","Appliance","Gone"," "," "," ","","0","Not Provided","Not Provided ()"
-undefined method `children' for nil:NilClass
 "3500","bmw102.serverfarm.cornell.edu","Linux","Active","R534702","CIT","Information Systems","gm228","116","1 physical, 1 logical","3947 (4096)"
 "3501","sf-lib-dig-014.serverfarm.cornell.edu","Linux","Active","L854711","DIGITAL LIBRARY AND INFORM TECH","","cam2","431","2 physical, 2 logical","7868 (8192)"
 "3502","sf-lib-dig-015.serverfarm.cornell.edu","Linux","Active","L854711","DIGITAL LIBRARY AND INFORM TECH","","cam2","436","2 physical, 2 logical","3828 (4096)"
@@ -537,11 +450,6 @@ undefined method `children' for nil:NilClass
 "3535","tms","Appliance","Co-Hosted","R534713","CIT","Network & Communication Services","amp53","0","Not Provided","Not Provided (6144)"
 "3536","norway12.serverfarm.cornell.edu","ESX","Active","R524850","CIT","Systems & Operations","ljc1","0","Not Provided","Not Provided (262109)"
 "3537","oxton134.serverfarm.cornell.edu","Linux","Active","R534702","CIT","Information Systems","gm228","200","1 physical, 1 logical","3828 (4096)"
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
-undefined method `children' for nil:NilClass
 "3543","netappsim01","Appliance","Decommission","R524883","CIT","Systems & Operations","psz1","0","Not Provided","Not Provided (4096)"
 "3544","netappsim02","Appliance","Co-Hosted","R524883","CIT","Systems & Operations","psz1","0","Not Provided","Not Provided (8192)"
 "3545","sf-lib-web-007.serverfarm.cornell.edu","Linux","Active","L854711","DIGITAL LIBRARY AND INFORM TECH","","cam2","333","2 physical, 2 logical","3828 (4096)"
@@ -702,10 +610,8 @@ undefined method `children' for nil:NilClass
 "3700","sf-fs-lb-002","Windows","Active","G413704","FACILITIES OPERATIONS","","tdd29","139","2 Physical, 2 Logical","8191 (8192)"
 "3701","rhnsat.cit.cornell.edu","Linux","Active","R524870","CIT","Systems & Operations","ljc1","2228","2 physical, 2 logical","3828 (4096)"
 "3702","webhost014.serverfarm.cornell.edu","Linux","Active","R704755","CIT","Information Systems","sml34","86","1 physical, 1 logical","7868 (8192)"
-undefined method `children' for nil:NilClass
 "3704","sf-rush05","Windows","Active","R524870","CIT","Systems & Operations","ljc1","1439","2 Physical, 2 Logical","8191 (8192)"
 "3705","sf-lobster01","Windows","Active","1213198","CALS","","ams323","2117","8 Physical, 8 Logical","32767 (32768)"
-undefined method `+' for nil:NilClass
 "3707","sf-rush06","Windows","Active","R524870","CIT","Systems & Operations","ljc1","89","2 Physical, 2 Logical","8191 (8192)"
 "3708","webhost015.serverfarm.cornell.edu","Linux","Active","R704755","CIT","Information Systems","sml34","224","1 physical, 1 logical","3828 (4096)"
 "3709","jeep01.serverfarm.cornell.edu","Linux","Active","R534702","CIT","Information Systems","jrc42","137","2 physical, 2 logical","1873 (2048)"
@@ -719,7 +625,6 @@ undefined method `+' for nil:NilClass
 "3717","xwebhost011.serverfarm.cornell.edu","Linux","Active","R704755","CIT","Information Systems","sml34","76","1 physical, 1 logical","1873 (2048)"
 "3718","xwebhost012.serverfarm.cornell.edu","Linux","Active","R704755","CIT","Information Systems","sml34","1284","2 physical, 2 logical","3828 (4096)"
 "3719","xwebhost013.serverfarm.cornell.edu","Linux","Active","R704755","CIT","Information Systems","sml34","86","1 physical, 1 logical","1873 (2048)"
-undefined method `children' for nil:NilClass
 "3721","bmw119.serverfarm.cornell.edu","Linux","Gone","R534702","CIT","Information Systems","gm228","372","2 physical, 2 logical","7868 (8192)"
 "3722","dodo02.ornith.cornell.edu","Linux","Active","1718460","LABORATORY OF ORNITHOLOGY","","jag73","190","8 physical, 8 logical","32106 (32768)"
 "3723","sf-infranode443","Windows","Gone","R524870","CIT","Systems & Operations","ljc1","179","3 Physical, 3 Logical","8191 (8192)"
@@ -838,7 +743,6 @@ undefined method `children' for nil:NilClass
 "3836","lib-usda-01.serverfarm.cornell.edu","Linux","Active","L918741","CALS Mann Library","","cam2","116","2 physical, 2 logical","7868 (8192)"
 "3837","lib-usda-02.serverfarm.cornell.edu","Linux","Active","L918741","CALS Mann Library","","cam2","116","2 physical, 2 logical","7868 (8192)"
 "3838","equestrian1-60d.net.cornell.edu","Appliance","Gone"," "," "," ","ljc1","0","Not Provided","Not Provided ()"
-undefined method `children' for nil:NilClass
 "3840","sf-teste2013-03","Windows","Active","R524717","CIT","Support","pb10","359","2 Physical, 2 Logical","16383 (16384)"
 "3841","sf-teste2013-04","Windows","Active","R524717","CIT","Support","pb10","359","2 Physical, 2 Logical","16383 (16384)"
 "3842","sf-teste2013-05","Windows","Active","R524717","CIT","Support","pb10","359","2 Physical, 2 Logical","16383 (16384)"
@@ -854,9 +758,7 @@ undefined method `children' for nil:NilClass
 "3852","sf-itsdl2002","Windows","Active","R554771","CIT","Academic Technology Services & User Support","mdr23","179","1 Physical, 1 Logical","2047 (2048)"
 "3853","sf-dfacit-wb-02","Windows","Active","G104700","FINANCIAL SYSTEMS","","sjc37","109","2 Physical, 2 Logical","4095 (4096)"
 "3854","sweden06.serverfarm.cornell.edu","ESX","Active","R524850","CIT","Systems & Operations","ljc1","0","Not Provided","Not Provided (393181)"
-undefined method `children' for nil:NilClass
 "3856","acadtech13.serverfarm.cornell.edu","Linux","Active","R554722","CIT","Academic Technology Services & User Support","tam42","116","1 physical, 1 logical","1873 (2048)"
-undefined method `children' for nil:NilClass
 "3858","webhost037.serverfarm.cornell.edu","Linux","Active","3013746","CHE - Human Development","","rar28","106","1 physical, 1 logical","3828 (4096)"
 "3859","netman10.serverfarm.cornell.edu","Linux","Active","R532514","CIT","Network & Communication Services","ljc1","57","1 physical, 1 logical","992 (1024)"
 "3860","webhost038.serverfarm.cornell.edu","Linux","Gone","R704755","CIT","Information Systems","sml34","76","1 physical, 1 logical","1873 (2048)"
@@ -969,7 +871,6 @@ undefined method `children' for nil:NilClass
 "3967","webhost062.serverfarm.cornell.edu","Linux","Active","U764300","Lab. of Atomic & Solid State Physics","L A S S P - GENERAL","rbr2","136","1 physical, 1 logical","1873 (2048)"
 "3968","webhost063.serverfarm.cornell.edu","Linux","Active","G364713","ALUMNI AFFAIRS & DEVELOPMENT SERVICES","","las236","76","1 physical, 1 logical","3828 (4096)"
 "3969","lib-dev-030.serverfarm.cornell.edu","Linux","Active","L914707","CALS Mann Library","DIGITAL LIBRARY SUPPORT","cam2","77","2 physical, 2 logical","3828 (4096)"
-undefined method `children' for nil:NilClass
 "3971","sf-xcapps-np006.serverfarm.cornell.edu","Linux","Active","R704750","CIT","Information Systems","vm57","234","2 physical, 2 logical","1873 (2048)"
 "3972","lib-usda-04.serverfarm.cornell.edu","Linux","Active","L918741","CALS Mann Library","","cam2","136","2 physical, 2 logical","1873 (2048)"
 "3973","sf-xcapps-np007","Windows","Active","R704750","CIT","Information Systems","vm57","279","2 Physical, 2 Logical","4095 (4096)"

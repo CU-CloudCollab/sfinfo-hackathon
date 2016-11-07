@@ -27,6 +27,8 @@ def load_database():
         fieldnames = ("id","name","os","status","account","dept","division","owner","storage")
         reader = csv.DictReader(csvfile, fieldnames)
 
+	database = {}
+
         for row in reader:
             database[row['id']] = row
 
