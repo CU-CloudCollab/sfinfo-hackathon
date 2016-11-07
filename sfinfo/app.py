@@ -54,3 +54,18 @@ def get_vm_details(machine_id):
         response = {'error': str(e)}
 
     return response
+
+@app.route('/detail/{id}', methods=['PUT'])
+def put_vm_details(machine_id):
+
+    try:
+        response = table.put_item(
+            Item={
+                'id': machine_id,
+                'owner': "Joel",
+                }
+            )
+    except ClientError as e:
+        response = {'error': str(e)}
+
+    return response
