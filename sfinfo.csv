@@ -1,4 +1,4 @@
-"id","name","os","status","account","dept","division}","owner","storage"
+"id","name","os","status","account","dept","division","owner","storage"
 "3000","bmw056.serverfarm.cornell.edu","Linux","Gone","R534702","CIT","Information Systems","Greg Menzenski","381"
 "3001","bmw057.serverfarm.cornell.edu","Linux","Active","R534702","CIT","Information Systems","Greg Menzenski","795"
 "3002","maxima02.mail.cornell.edu","Linux","Active","R524717","CIT","Support","Pete Bosanko","563"
