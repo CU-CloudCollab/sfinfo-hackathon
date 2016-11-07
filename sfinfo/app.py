@@ -45,7 +45,7 @@ def listvms():
 def put_vm_details(machine_id):
 
     try:
-        request = aap.current_request
+        request = app.current_request
 	if request.method == 'GET':
             response = table.get_item(
                 Key={
