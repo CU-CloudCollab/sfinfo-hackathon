@@ -14,7 +14,7 @@ app.debug = True
 S3 = boto3.client('s3', region_name='us-east-1')
 BUCKET = 'cu-hackathon-data'
 
-dynamodb = boto3.resource('dynamodb', region_name='us-east-1', endpoint_url="http://localhost:8000")
+dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
 
 table = dynamodb.Table('MachinesCollection')
 
@@ -35,7 +35,7 @@ def get_vm_details(machine_id):
     try:
         response = table.get_item(
             Key={
-                'id': int(machine_id),
+                'id': machine_id,
                 }
             )
     except ClientError as e:
