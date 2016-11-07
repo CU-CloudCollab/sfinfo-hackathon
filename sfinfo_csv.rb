@@ -47,7 +47,14 @@ agent.cookie_jar.add(URL + "3000", cookie)
   status = page.parser.xpath("/html/body/div[3]/div/div/table[1]/tr[2]/td[5]")[0].children[0].text.strip
 
   cpu = page.parser.xpath("/html/body/div[3]/div/div/table[4]/tr[8]/td[2]")[0].children.text
+  cpu_start = cpu.index(",")
+  cpu_end = cpu.index("logical")
+  cpu = cpu[cpu_start+2..cpu_end-2].strip
+
   memory = page.parser.xpath("/html/body/div[3]/div/div/table[4]/tr[13]/td[2]")[0].children.text
+  memory_start = memory.index('(')
+  memory_end = memory.index(')')
+  memory = memory[memory_start+1..memory_end-1].strip
 
   i = 2
   quit = false
