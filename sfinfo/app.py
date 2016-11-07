@@ -30,7 +30,7 @@ def listvms():
     try:
 	idlist = []
 
-        response = table.query()
+        response = table.scan()
         for i in response[u'Items']:
             idlist.append(i['id'])
 
