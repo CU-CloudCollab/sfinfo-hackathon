@@ -5,7 +5,7 @@ require 'mechanize'
 require 'uri'
 
 URL = "https://sfinfo.cit.cornell.edu/sfinfo_app/htdocs/vserver.php?vs_id="
-puts "\"id\",\"name\",\"os\",\"status\",\"account\",\"dept\",\"division\",\"owner\",\"storage\",\"cpu\",\"memory\""
+#puts "\"id\",\"name\",\"os\",\"status\",\"account\",\"dept\",\"division\",\"owner\",\"storage\",\"cpu\",\"memory\""
 
 agent = Mechanize.new
 cookie = Mechanize::Cookie.new("cuweblogin2", "#{ARGV[0]}")
@@ -71,7 +71,20 @@ agent.cookie_jar.add(URL + "3000", cookie)
   storage = storage.to_i.to_s
   owner = "Unknown" if owner.eql?("[  ]")
 
-  puts "\"#{id}\",\"#{name}\",\"#{os}\",\"#{status}\",\"#{account}\",\"#{dept}\",\"#{division}\",\"#{owner}\",\"#{storage}\",\"#{cpu}\",\"#{memory}\""
+  #puts "{id:\"#{id}\",\"#{name}\",\"#{os}\",\"#{status}\",\"#{account}\",\"#{dept}\",\"#{division}\",\"#{owner}\",\"#{storage}\",\"#{cpu}\",\"#{memory}\""
+  puts "{"
+  puts "id:\"#{id}\","
+  puts "name:\"#{name}\","
+  puts "os:\"#{os}\","
+  puts "status:\"#{status}\","
+  puts "account:\"#{account}\","
+  puts "dept:\"#{dept}\","
+  puts "division:\"#{division}\","
+  puts "owner:\"#{owner}\","
+  puts "storage:\"#{storage}\","
+  puts "cpu:\"#{cpu}\","
+  puts "memory:\"#{memory}\","
+  puts "}"
   rescue Exception => e
   end
 end
